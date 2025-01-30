@@ -1568,7 +1568,7 @@ function AcrylicPaint()
 			BorderSizePixel = 0,
 		}, {
 			New("ImageLabel", {
-				Image = "",
+				Image = "rbxassetid://8992230677",
 				ScaleType = "Slice",
 				SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
 				AnchorPoint = Vector2.new(0.5, 0.5),
@@ -1614,7 +1614,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "",
+				Image = "rbxassetid://9968344105",
 				ImageTransparency = 0.98,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -1627,7 +1627,7 @@ function AcrylicPaint()
 			}),
 
 			New("ImageLabel", {
-				Image = "",
+				Image = "rbxassetid://9968344227",
 				ImageTransparency = 0.9,
 				ScaleType = Enum.ScaleType.Tile,
 				TileSize = UDim2.new(0, 128, 0, 128),
@@ -1911,7 +1911,7 @@ Components.Section = (function()
 				RichText = true,
 				Text = Title,
 				TextTransparency = 0,
-				FontFace = Font.new("", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+				FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
 				TextSize = 18,
 				TextXAlignment = "Left",
 				TextYAlignment = "Center",
@@ -2032,9 +2032,9 @@ Components.Tab = (function()
 			BackgroundTransparency = 1,
 			Parent = Window.ContainerHolder,
 			Visible = false,
-			BottomImage = "",
-			MidImage = "",
-			TopImage = "",
+			BottomImage = "rbxassetid://6889812791",
+			MidImage = "rbxassetid://6889812721",
+			TopImage = "rbxassetid://6276641225",
 			ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
 			ScrollBarImageTransparency = 0.95,
 			ScrollBarThickness = 3,
@@ -2907,7 +2907,7 @@ Components.Window = (function()
 			RichText = true,
 			Text = "Tab",
 			TextTransparency = 0,
-			FontFace = Font.new("", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+			FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
 			TextSize = 28,
 			TextXAlignment = "Left",
 			TextYAlignment = "Center",
@@ -3247,7 +3247,7 @@ ElementsTable.Button = (function()
 		local ButtonFrame = Components.Element(Config.Title, Config.Description, self.Container, true, Config)
 
 		local ButtonIco = New("ImageLabel", {
-			Image = "",
+			Image = "rbxassetid://10709791437",
 			Size = UDim2.fromOffset(16, 16),
 			AnchorPoint = Vector2.new(1, 0.5),
 			Position = UDim2.new(1, -10, 0.5, 0),
@@ -3422,7 +3422,7 @@ ElementsTable.Dropdown = (function()
 		})
 
 		local DropdownIco = New("ImageLabel", {
-			Image = "",
+			Image = "rbxassetid://10709790948",
 			Size = UDim2.fromOffset(16, 16),
 			AnchorPoint = Vector2.new(1, 0.5),
 			Position = UDim2.new(1, -8, 0.5, 0),
@@ -3465,9 +3465,9 @@ ElementsTable.Dropdown = (function()
 			Size = UDim2.new(1, -5, 1, -10),
 			Position = UDim2.fromOffset(5, 5),
 			BackgroundTransparency = 1,
-			BottomImage = "://6889812791",
-			MidImage = "",
-			TopImage = "",
+			BottomImage = "rbxassetid://6889812791",
+			MidImage = "rbxassetid://6889812721",
+			TopImage = "rbxassetid://6276641225",
 			ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
 			ScrollBarImageTransparency = 0.75,
 			ScrollBarThickness = 5,
@@ -4433,7 +4433,7 @@ ElementsTable.Colorpicker = (function()
 			local SatVibMap = New("ImageLabel", {
 				Size = UDim2.fromOffset(180, 160),
 				Position = UDim2.fromOffset(20, 55),
-				Image = "",
+				Image = "rbxassetid://4155801252",
 				BackgroundColor3 = Colorpicker.Value,
 				BackgroundTransparency = 0,
 				Parent = Dialog.Root,
@@ -4907,7 +4907,8 @@ NotificationModule:Init(GUI)
 
 local New = Creator.New
 
-
+local Icons = {
+}
 function Library:GetIcon(Name)
 	if Name ~= nil and Icons["lucide-" .. Name] then
 		return Icons["lucide-" .. Name]
@@ -5479,7 +5480,7 @@ local MinimizeButton = New("TextButton", {
 		PaddingTop = UDim.new(0, 2),
 	}),
 	New("ImageLabel", {
-		Image = Mobile and "" or "",
+		Image = Mobile and "rbxassetid://10734897102" or "",
 		Size = UDim2.new(1, 0, 1, 0),
 		BackgroundTransparency = 1,
 	}, {
@@ -5620,6 +5621,196 @@ AddSignal(MinimizeButton.MouseButton1Click, function()
 end)
 
 --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 local httpService = game:GetService("HttpService")
 

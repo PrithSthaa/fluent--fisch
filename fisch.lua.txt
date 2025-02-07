@@ -3765,7 +3765,7 @@ MiscPlayer = Tap.Player:AddSection('Misc Player') do
 		end
 	end)
 	Toggle(MiscPlayer, "Infinite Oxygen", "", "Infinite Oxygen", function(Value)
-		LocalPlayer.Character.client.oxygen.Disabled = Value
+		LocalPlayer.Character.oxygen.Disabled = Value
 	end)
 	Toggle(MiscPlayer, "Weather Clear", "", "Weather Clear", function(Value)
 		local OldWEA = ReplicatedStorage.world.weather.Value
